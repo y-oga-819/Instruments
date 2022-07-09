@@ -9,8 +9,13 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ZStack {
+            // 背景画像
+            Image("background")
+                .resizable() // リサイズ
+                .edgesIgnoringSafeArea(.all) // 画面いっぱい
+                .aspectRatio(contentMode: .fill) // 短編を基準にアスペクト比を維持
+        }
     }
 }
 

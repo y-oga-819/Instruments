@@ -24,7 +24,15 @@ struct ContentView: View {
                     Image("cymbal")
                         .renderingMode(.original)
                 }
-            }            
+
+                // ギター
+                Button(action: {
+                    
+                }) {
+                    Image("guitar")
+                        .renderingMode(.original)
+                }
+            }
         }
     }
 }

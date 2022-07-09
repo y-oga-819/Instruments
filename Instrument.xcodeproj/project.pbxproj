@@ -17,6 +17,8 @@
 		7640695F2879C5F600D38A1F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764069352879C5F200D38A1F /* ContentView.swift */; };
 		764069602879C5F600D38A1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 764069362879C5F600D38A1F /* Assets.xcassets */; };
 		764069612879C5F600D38A1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 764069362879C5F600D38A1F /* Assets.xcassets */; };
+		764069752879CC1500D38A1F /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764069742879CC1500D38A1F /* SoundPlayer.swift */; };
+		764069762879CC1500D38A1F /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764069742879CC1500D38A1F /* SoundPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		764069542879C5F600D38A1F /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		764069582879C5F600D38A1F /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		7640695A2879C5F600D38A1F /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		764069742879CC1500D38A1F /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +103,7 @@
 				764069342879C5F200D38A1F /* InstrumentApp.swift */,
 				764069352879C5F200D38A1F /* ContentView.swift */,
 				764069362879C5F600D38A1F /* Assets.xcassets */,
+				764069742879CC1500D38A1F /* SoundPlayer.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -300,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7640695E2879C5F600D38A1F /* ContentView.swift in Sources */,
+				764069752879CC1500D38A1F /* SoundPlayer.swift in Sources */,
 				7640695C2879C5F600D38A1F /* InstrumentApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7640695F2879C5F600D38A1F /* ContentView.swift in Sources */,
+				764069762879CC1500D38A1F /* SoundPlayer.swift in Sources */,
 				7640695D2879C5F600D38A1F /* InstrumentApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

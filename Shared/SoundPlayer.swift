@@ -10,8 +10,10 @@ import AVFoundation
 
 class SoundPlayer: NSObject {
     let cymbalData = NSDataAsset(name: "cymbalSound")!.data
-
     var cymbalPlayer: AVAudioPlayer!
+
+    let guitarData = NSDataAsset(name: "guitarSound")!.data
+    var guitarPlayer: AVAudioPlayer!
 
     func cymbalPlay() {
         do {
@@ -19,6 +21,15 @@ class SoundPlayer: NSObject {
             cymbalPlayer.play()
         } catch {
             print("シンバルを鳴らそうとしてエラーが発生しました！")
+        }
+    }
+
+    func guitarPlay() {
+        do {
+            guitarPlayer = try AVAudioPlayer(data: guitarData)
+            guitarPlayer.play()
+        } catch {
+            print("ギターを鳴らそうとしてエラーが発生しました！")
         }
     }
 }

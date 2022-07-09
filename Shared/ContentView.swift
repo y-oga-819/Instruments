@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
+    let soundPlayer = SoundPlayer();
+
     var body: some View {
         ZStack {
             // 背景画像
@@ -19,7 +21,7 @@ struct ContentView: View {
             HStack {
                 // シンバルボタン
                 Button(action: {
-                    
+                    soundPlayer.cymbalPlay()
                 }) {
                     Image("cymbal")
                         .renderingMode(.original)
@@ -27,7 +29,8 @@ struct ContentView: View {
 
                 // ギター
                 Button(action: {
-                    
+                    soundPlayer.guitarPlay()
+
                 }) {
                     Image("guitar")
                         .renderingMode(.original)

@@ -23,8 +23,7 @@ struct ContentView: View {
                 Button(action: {
                     soundPlayer.cymbalPlay()
                 }) {
-                    Image("cymbal")
-                        .renderingMode(.original)
+                    InstrumentButtonImageView(imageName: "cymbal")
                 }
 
                 // ギター
@@ -32,8 +31,7 @@ struct ContentView: View {
                     soundPlayer.guitarPlay()
 
                 }) {
-                    Image("guitar")
-                        .renderingMode(.original)
+                    InstrumentButtonImageView(imageName: "guitar")
                 }
             }
         }

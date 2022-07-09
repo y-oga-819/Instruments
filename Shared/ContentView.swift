@@ -15,6 +15,16 @@ struct ContentView: View {
                 .resizable() // リサイズ
                 .edgesIgnoringSafeArea(.all) // 画面いっぱい
                 .aspectRatio(contentMode: .fill) // 短編を基準にアスペクト比を維持
+            
+            HStack {
+                // シンバルボタン
+                Button(action: {
+                    
+                }) {
+                    Image("cymbal")
+                        .renderingMode(.original)
+                }
+            }            
         }
     }
 }
